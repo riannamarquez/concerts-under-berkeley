@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/1m7016hsiwxo0.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"txWrN_v22D8nUL-zS6c5Z"}

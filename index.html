@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concerts Under Berkeley</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">CUB</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#join">Join Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">cozy, home-style performances by student artists &#127928</p>
+      <h1 class="hero-title">concerts under<br>berkeley</h1>
+      <p class="hero-subtitle">sick beats</p>
+      <div class="hero-buttons">
+        <a href="#events" class="btn btn-primary">upcoming events</a>
+        <a href="#join" class="btn btn-outline">contact us!</a>
+        <a href="blog" class="btn btn-outline">blog &#128191</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>about us!</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who We Are</span>
+        <h2 class="section-title">More Than Just Music</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">&#9835;</div>
+          <h3>Live Performances</h3>
+          <p>We organize live concerts, open mics, and jam sessions across campus, showcasing talented student musicians of all genres.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#9733;</div>
+          <h3>Artist Spotlights</h3>
+          <p>We highlight and support emerging student artists, giving them a platform to share their music with the Berkeley community.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#9829;</div>
+          <h3>Community</h3>
+          <p>More than a club — we're a family of music lovers. Connect with fellow students who share your passion for live music.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meet the Team Dropdown -->
+    <div class="container">
+      <details class="meet-team-dropdown">
+        <summary class="meet-team-toggle">
+          <span>Meet the Team</span>
+          <span class="meet-team-arrow">&#9660;</span>
+        </summary>
+        <div class="meet-team-content">
+          <p class="meet-team-placeholder">Team bios coming soon. Stay tuned!</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section class="events" id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What's Coming</span>
+        <h2 class="section-title">Upcoming Events</h2>
+      </div>
+      <div class="events-grid">
+        <div class="event-card featured">
+          <div class="event-date">
+            <span class="event-month">FEB</span>
+            <span class="event-day">21</span>
+          </div>
+          <div class="event-info">
+            <span class="event-badge">Featured</span>
+            <h3>Spring Kickoff Concert</h3>
+            <p class="event-details">
+              <span>&#128205; Sproul Plaza</span>
+              <span>&#128337; 6:00 PM - 9:00 PM</span>
+            </p>
+            <p class="event-description">Kick off the spring semester with live performances from 5 student bands. Free entry, food trucks on site!</p>
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">MAR</span>
+            <span class="event-day">07</span>
+          </div>
+          <div class="event-info">
+            <h3>Open Mic Night</h3>
+            <p class="event-details">
+              <span>&#128205; Bear's Lair Pub</span>
+              <span>&#128337; 7:00 PM - 10:00 PM</span>
+            </p>
+            <p class="event-description">Sign up to perform or come enjoy an evening of raw, unplugged talent from your fellow Bears.</p>
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">MAR</span>
+            <span class="event-day">22</span>
+          </div>
+          <div class="event-info">
+            <h3>Battle of the Bands</h3>
+            <p class="event-details">
+              <span>&#128205; Zellerbach Hall</span>
+              <span>&#128337; 5:00 PM - 9:30 PM</span>
+            </p>
+            <p class="event-description">Berkeley's best student bands compete head-to-head. Audience votes decide the winner. Bragging rights on the line!</p>
+          </div>
+        </div>
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">APR</span>
+            <span class="event-day">12</span>
+          </div>
+          <div class="event-info">
+            <h3>Sunset Sessions</h3>
+            <p class="event-details">
+              <span>&#128205; Faculty Glade</span>
+              <span>&#128337; 4:00 PM - 7:00 PM</span>
+            </p>
+            <p class="event-description">Acoustic sets under the trees as the sun goes down. Bring a blanket and enjoy the vibes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Relive the Moments</span>
+        <h2 class="section-title">Past Highlights</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+            <span>Fall 2025 Concert</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+            <span>Open Mic Night</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+            <span>Jam Session</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">
+            <span>Battle of the Bands</span>
+          </div>
+        </div>
+        <div class="gallery-item large">
+          <div class="gallery-placeholder" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+            <span>Sunset Sessions</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Section -->
+  <section class="join" id="join">
+    <div class="container">
+      <div class="join-content">
+        <div class="section-header">
+          <span class="section-tag">Get Involved</span>
+          <h2 class="section-title">Join Concerts Under Berkeley</h2>
+          <p class="join-description">Whether you're a musician, a music lover, or just looking for a good time — there's a place for you here. Fill out the form and we'll be in touch!</p>
+        </div>
+        <form class="join-form" id="join-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@berkeley.edu" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="role">I'm interested in...</label>
+            <select id="role" name="role" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="performer">Performing at events</option>
+              <option value="organizing">Helping organize events</option>
+              <option value="attending">Attending shows</option>
+              <option value="all">All of the above!</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Anything else? (Optional)</label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell us about yourself, your favorite genres, instruments you play..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Count Me In</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 class="nav-logo">CUB</h3>
+          <p>Concerts Under Berkeley<br>UC Berkeley's student-run music club.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#join">Join Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="social-link" aria-label="Twitter">X</a>
+            <a href="#" class="social-link" aria-label="YouTube">YT</a>
+            <a href="#" class="social-link" aria-label="Spotify">SP</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Concerts Under Berkeley. Made with &#9829; at Cal.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

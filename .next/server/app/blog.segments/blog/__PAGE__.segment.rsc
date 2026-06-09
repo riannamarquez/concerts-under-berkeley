@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/3vvsvex-eohjt.js","/_next/static/chunks/158myu8e_yme3.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"style":{"minHeight":"100vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","gap":"16px","textAlign":"center","padding":"0 24px"},"children":[["$","span",null,{"className":"section-tag","children":"Coming Soon"}],["$","h1",null,{"className":"section-title","children":"The CUB Blog"}],["$","p",null,{"style":{"color":"var(--gray)","maxWidth":"480px","lineHeight":"1.7"},"children":"Stories, recaps, artist spotlights, and more — dropping soon. Check back after our next show!"}],["$","a",null,{"href":"/","className":"btn btn-primary","style":{"marginTop":"8px"},"children":"Back to Home"}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"txWrN_v22D8nUL-zS6c5Z"}
+4:null
