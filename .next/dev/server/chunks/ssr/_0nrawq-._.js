@@ -110,7 +110,7 @@ function RootLayout({ children }) {
         lineNumber: 12,
         columnNumber: 5
     }, this);
-}
+} // booty
 }),
 "[project]/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
 
